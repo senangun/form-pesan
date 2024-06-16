@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+    background-color: red;
+    color: blue;
+}
+h1{
+    text-align: center;
+    color: rgba(255, 72, 0, 0.611);
+}
+fieldset{
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgba(255, 197, 127, 0.607);
+}
+
+@media screen and (max-width: 399px) {
+    body{
+        background: white;
+        color: black;
+    }
+}
+
+@media screen and (min-width:400px) {
+    body{
+        background: rgba(188, 235, 135, 0);
+        color: pink;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    body{
+        background: coral;
+        color: rgb(14, 110, 236);
+    }
+}
+
+@media screen and (min-width: 700px) {
+    body{
+        background: rgba(245, 243, 220, 0.708);
+        color: rgb(235, 135, 135)
+    }
+}
+
+@media screen and (orientation: landscape) {
+    body{
+        background: rgba(233, 230, 91, 0.725);
+    }   
+}
+
+@media screen and (orientation: portrait) {
+    body{
+        background: rgb(161, 255, 161);
+    }
+}

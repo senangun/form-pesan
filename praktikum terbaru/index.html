@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan Buku Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+            <h1>Praktikum 1</h1>
+            <h2>Form Pemesanan Buku Online</h2>
+        <fieldset>
+            <br>
+            <form action="index.php" method="POST">
+                <label for="nama">Nama Pemesan</label><br>
+                <input type="text" name="nama" id="nama"><br><br>
+                <label for="alamat">Alamat Pengiriman</label><br>
+                <input type="alamat" name="alamat" id="alamat"><br><br>
+                <label for="number">Nomor Telepon</label><br>
+                <input type="number" name="number" id="number"><br><br>
+                <label class="label">Metode Pembayaran</label><br>
+                <input type="radio" id="javascript" name="pilihan_berat" value="BANK_BRI">
+                <label for="diaduk">BANK BRI (1483321126) </label><br>
+                <input type="radio" id="css" name="pilihan_berat" value="BANK_BCA">
+                <label for="tidak_diaduk">BANK BCA (3564451126)</label><br>
+                <input type="radio" id="html" name="pilihan_berat" value="BANK_BSI">
+                <label for="puasa">BANK BSI (45844511278)</label><br><br>
+
+                <label class="label">Pilih Beberapa Buku</label><br>
+                <input type="radio" id="vehicle1" name="book" value="geografi">
+                <label for="diaduk">Buku Geografi </label><br>
+                <input type="radio" id="vehicle2" name="book" value="matematika">
+                <label for="tidak_diaduk">Buku Matematika</label><br>
+                <input type="radio" id="vehicle3" name="book" value="olahraga">
+                <label for="puasa">Buku Olahraga</label><br>
+                <input type="radio" id="vehicle4" name="book" value="fisika">
+                <label for="puasa">Buku Fisika</label><br><br>
+
+                <label class="label">Jumlah Setiap Buku</label><br>
+                <input type="text" name="Jumlah" id="Jumlah"><br><br>
+
+                <label class="label">Catatan Khusus</label><br>
+                <input type="text" name="Catatan" id="Catatan"><br><br>
+
+                <label for="cdate">Tanggal Pengiriman yang Diinginkan</label><br>
+                <input type="date" name="Tanggal"><br><br>
+
+                <label for="file">Bukti Pembayaran</label><br>
+                <input type="file" name="bukti"><br><br>
+                <input type="submit" value="submit"><br>
+            </form>
+        </fieldset>
+</body>
+</html>
